@@ -1,6 +1,8 @@
 
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
+    https://codepen.io/DeSpain/pen/qBOpJrb?editors=1100
+    
     1. What is Semantic HTML? 
     Semantic HTML is using HTML tags that tell us something about 
     the content and structure of our website to expand usability and ease development.
@@ -90,14 +92,38 @@ elemnts other than paragraphs.
     navigate to where you want to store you're repo on your computer using cd
     clone your repo to that directory using git clone `url of repo`
     navigate into the repo using cd
-    create a new branch using 
+    create a new branch using git checkout `branch-name`
+    do your assignment and periodically add and push your branch to github
+    When done open a pull request switch from the base repo to your forked repo
+    submit the pull request with your tl add as a reviewer
+
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    The difference is block elements are things you can put anything into. Data, an inline element, and another block element.
+    Inline elements can only contain text and other inline elements.
     2. What happens when an element is positioned absolutely? 
+    An element that is positioned absolutely will not change position unless the element it is contained in changes position.
+If the absolutely positioned element has no ancestor it will be fixed in a specific spot on the viewport.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    margin: auto;
+    width: value;
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element 
+    that is display inline-block by default
+    Block
+    <div>
+    <section>
+    <footer>
+    Inline
+    <a>
+    <span>
+    inline-block
+    <img>
+
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, 
+    how do we make all elements respect the width we've given them? 
+
 
 
 
